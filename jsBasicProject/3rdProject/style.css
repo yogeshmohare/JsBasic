@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin: 10rem;
+}
+span {
+  font-size: 30px;
+  margin-left: 2rem;
+}
+button {
+  margin-top: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid tomato;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  background-color: tomato;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 0 4px #999;
+}
+button:active {
+  background-color: tomato;
+  box-shadow: 0 4px rgb(221, 215, 215);
+  transform: translateY(5px);
+}
