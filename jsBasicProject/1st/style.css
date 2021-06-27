@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin: 4rem;
+  text-transform: uppercase;
+}
+h2 {
+  margin: 4rem;
+  font-size: 10rem;
+}
+button {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid tomato;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  background-color: tomato;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 0 4px #999;
+}
+#increment-btn:active {
+  background-color: tomato;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+#save-btn {
+  margin-top: 2rem;
+  display: block;
+  padding: 1rem;
+  border: 2px solid rgb(55, 119, 17);
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  background-color: rgb(41, 190, 21);
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 0 4px #999;
+}
+#save-btn:active {
+  background-color: rgb(41, 190, 21);
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+p {
+  margin: 2rem;
+}
