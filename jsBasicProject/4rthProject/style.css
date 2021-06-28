@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: bold;
+  text-align: center;
+  margin: 7rem;
+  color: white;
+  background-image: url("./bg.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: goldenrod;
+  font-size: 4rem;
+  margin-bottom:1rem;
+}
+p{
+    font-size: 2rem;
+    margin: 1rem;
+}
+#message-el {
+  font-style: italic;
+}
+button{
+    padding-top: 5px;
+    width:150px;
+    padding-bottom:6px;
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    display: block;
+    margin:auto;
+    margin-top:1rem;
+}
